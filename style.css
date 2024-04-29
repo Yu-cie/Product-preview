@@ -1,0 +1,280 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color:hsl(30, 38%, 92%);
+    margin:50px 3%;
+}
+
+#container {
+    display:grid;
+}
+
+img {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+#pic2 {
+    display:none;
+}
+
+#details {
+    background-color:#ffffff;
+    padding:7%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#perfume {
+    font-family:"Montserrat", sans-serif;
+    color:hsl(228, 12%, 48%);
+    font-weight:700;
+    font-size:10px;
+    letter-spacing:5px;
+    margin-bottom:3%;
+}
+
+h1, span {
+    font-weight:700;
+    font-family:"Fraunces", serif;
+    margin-bottom:5%;
+    color:hsl(212, 21%, 14%);
+}
+
+p#perfume ~ p {
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+    font-size:14px;
+    line-height:22px;
+    margin-bottom:5%;
+    color:hsl(228, 12%, 48%);
+}
+
+span {
+    display:inline-block;
+    color:hsl(158, 36%, 37%);
+    font-size:40px;
+    margin-right:3%;
+}
+
+sup {
+    display:inline-block;
+    vertical-align:top;
+    font-family:"Montserrat", sans-serif;
+    text-decoration:line-through;
+}
+
+button {
+    text-align:center;
+    padding:16px;
+    background-color:hsl(158, 36%, 37%);
+    border:none;
+    width:100%;
+    border-radius:10px;
+    color:#fff;
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+    word-spacing:2px;
+    margin-bottom:3%;
+}
+
+button svg {
+    padding-right:3%;
+}
+
+button p {
+    text-align:center;
+    vertical-align:top;
+    display:inline-block;
+}
+
+#yuci {
+    text-align:center;
+}
+
+@media only screen and (min-width:100px) and (max-width:350px) {
+
+    #perfume {
+        font-size:8px;
+    }
+
+    h1 {
+        font-size:30px;
+    }
+
+    span {
+        font-size:20px;
+    }
+
+    button {
+        padding:5%;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+
+    body {
+        padding:10% 25%;
+
+    }
+
+    #container {
+        display:flex;
+        margin-top:5%;
+    }
+
+    img {
+        display:none;
+    }
+
+    #pic2 {
+        display:block;
+        width:50%;
+        border-top-right-radius:0px;
+        border-bottom-left-radius:10px;
+    }
+
+    #details {
+        padding:5%;
+        border-bottom-left-radius:0px;
+        border-top-right-radius:10px;
+    }
+
+    h1 {
+        line-height:30px;
+        margin:10% 0%;
+    }
+
+    span {
+        font-size:30px;
+        padding:8% 0% 6% 0%;
+        margin-right:5%;
+    }
+
+    sup {
+        vertical-align:super;
+    }
+
+    button {
+        padding:12px;
+        border-radius:7px;
+    }
+
+    button:hover {
+        background-color:hsl(160, 88%, 13%);
+    }
+
+
+
+}
+
+@media only screen and (min-width:1440px) and (max-width:2000px) {
+
+    body {
+        padding:0% 30%;
+        margin-top:10%;
+    }
+
+    #container {
+        display:flex;
+    }
+
+    img {
+        display:none;
+    }
+
+    #pic2 {
+        display:block;
+        width:50%;
+        border-top-right-radius:0px;
+        border-bottom-left-radius:10px;
+    }
+
+    #details {
+        border-top-right-radius:10px;
+        border-bottom-left-radius:0px;
+        padding:5% 5% 3% 5%;
+    }
+
+    h1 {
+        font-size:40px;
+        margin-top:5% 0%;
+    }
+
+    span {
+        padding:7% 0% 5% 0%;
+    }
+
+    sup {
+        vertical-align:super;
+    }
+
+    button:hover {
+        background-color:hsl(160, 88%, 13%);
+    }
+    
+    #yuci {
+        padding-top:5%;
+    }
+
+}
+
+@media only screen and (min-width:2001px) {
+
+    body {
+        padding:10% 25%;
+    }
+
+    #container {
+        display:flex;
+    }
+
+    img {
+        display:none;
+    }
+
+    #pic2 {
+        display:block;
+        width:50%;
+        border-top-right-radius:0px;
+        border-bottom-left-radius:10px;
+    }
+
+    #details {
+        padding:5% 3%;
+    }
+
+    #perfume {
+        font-size:20px;
+    }
+
+    h1 {
+        font-size:70px;
+    }
+
+    p#perfume ~ p {
+        font-size:30px;
+        line-height:50px;
+    }
+
+    span {
+        font-size:70px;
+    }
+
+    button {
+        font-size:20px;
+        padding:30px;
+    }
+
+    button svg {
+        max-width:100%;
+    }
+
+    button:hover {
+        background-color:hsl(160, 88%, 13%);
+    }
+}
+
