@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Yu-cie/Product-preview.git](https://github.com/Yu-cie/Product-preview.git)
+- Live Site URL: [https://product-preview-xi-six.vercel.app/](https://product-preview-xi-six.vercel.app/)
 
 ## My process
 
