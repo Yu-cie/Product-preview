@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Yu-cie/Product-preview.git](https://github.com/Yu-cie/Product-preview.git)
-- Live Site URL: [https://product-preview-xi-six.vercel.app/](https://product-preview-xi-six.vercel.app/)
+- Live Site URL: [https://product-preview-xi-six.vercel.app/](https://product-preview-xi-six.vercel.app)
 
 ## My process
 
