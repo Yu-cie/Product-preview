@@ -52,6 +52,6 @@ I'll like to improve my knowledge on how to use the grid and flex property.
 
 ## Author
 
-- Frontend Mentor - [@esther-yess](https://www.frontendmentor.io/profile/yu-cie)
+- Frontend Mentor - [@yu-cie](https://www.frontendmentor.io/profile/yu-cie)
 - Twitter - [@_luciesther](https://www.twitter.com/_luciesther)
 
